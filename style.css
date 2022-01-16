@@ -12,3 +12,7 @@ button,
     font: inherit;
     outline: inherit;
 }
+
+button {
+    cursor: pointer;
+}
