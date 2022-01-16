@@ -205,3 +205,10 @@ aside {
     text-align: center;
 }
 
+/*============ FOOTER =================*/
+footer {
+    grid-area: footer;
+    background: #6c584c7a;
+}
+
+
