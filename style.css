@@ -86,3 +86,97 @@ header {
 #btn-cesta img {
     width: 4.5vh
 }
+
+/*============ MAIN ============*/
+main {
+    grid-area: main;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+}
+
+.banner p {
+    background: #a98467d3;
+    font-size: 2.2rem;
+    color: white;
+    padding: 3% 1%;
+}
+
+.container-promo-dia {
+    height: 35vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr;
+    margin-top: 5%;
+    display: grid;
+    flex-direction: row;
+    justify-self: center;
+    row-gap: 2vh;
+    column-gap: 2vh;
+}
+
+.card-promo-dia {
+    background: #f0ead279;
+    height: 25vh;
+    width: 25vh;
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+    
+}
+
+.card-promo-dia:hover {
+    transform: scale(1.1);
+}
+
+.container-secoes-produtos {
+    
+    height: 26vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    margin-top: 20%;
+    display: grid;
+    flex-direction: row;
+    justify-self: center;
+    row-gap: 10vh;
+    column-gap: 2vh;
+}
+
+.secao-de-produtos {
+    background: #ADC178;
+    height: 20vh;
+    width: 20vh;
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.secao-de-produtos:hover{
+    transform: scale(1.1);
+}
+
+.secoes-de-produtos {
+    height: 30vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr;
+    margin-top: 25%;
+    display: grid;
+    flex-direction: row;
+    justify-self: center;
+    row-gap: 2vh;
+    column-gap: 2vh;
+}
+
+.secao-de-produto {
+    background: #f0ead279;
+    height: 25vh;
+    width: 25vh;
+    justify-self: center;
+    align-self: center;
+    text-align: center;    
+}
+.secao-de-produto:hover {
+transform: scale(1.09);
+}
