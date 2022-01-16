@@ -157,7 +157,7 @@ main {
     transform: scale(1.1);
 }
 
-.secoes-de-produtos {
+.secoes-de-produtos-dia {
     height: 30vh;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
     grid-template-rows: 1fr 1fr;
@@ -169,7 +169,7 @@ main {
     column-gap: 2vh;
 }
 
-.secao-de-produto {
+.secao-de-produto-dia {
     background: #f0ead279;
     height: 25vh;
     width: 25vh;
@@ -177,6 +177,6 @@ main {
     align-self: center;
     text-align: center;    
 }
-.secao-de-produto:hover {
+.secao-de-produto-dia:hover {
 transform: scale(1.09);
 }
