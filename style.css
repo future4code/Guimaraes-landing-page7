@@ -26,3 +26,63 @@ button {
                          "asideE main main"
                          "footer footer footer";
 }
+
+
+/*============= HEADER ==============*/
+
+header {
+    width: 1280px;
+    display: grid;
+    flex-direction: row;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-area: header;
+}
+
+#logo {
+    width: 60vh;
+}
+
+.container-pesquisa-e-botoes,
+.container-pesquisa,
+.botoes-login-cesta {
+    display: flex;
+    align-self: center;
+}
+
+
+#txt-pesquisa {
+    background: #f0ead281;
+    outline: none;
+    height: 8vh;
+    width: 50vw;
+}
+
+.lupa-pesquisa img {
+    width: 2vw;
+    padding: 0 0 0 5%;
+}
+
+.lupa-pesquisa:hover {
+    transform: scale(1.1);
+}
+
+#btn-login,
+#btn-cesta {
+    margin: 0 10%;
+    padding: 0 20%;
+    align-self: center;
+    border-radius: 10%;
+}
+
+#btn-login {
+    background: #DDE5B6;
+    height: 5vh;
+}
+
+#btn-cesta {
+    background: #DDE5B6;
+}
+
+#btn-cesta img {
+    width: 4.5vh
+}
