@@ -21,7 +21,7 @@ button {
 
 .container {
     display: grid;
-    grid-template-columns: 256px 768px 256px;
+    grid-template-columns: 1fr 3fr 1fr;
     grid-template-areas: "header header header"
                          "asideE main main"
                          "footer footer footer";
@@ -31,7 +31,6 @@ button {
 /*============= HEADER ==============*/
 
 header {
-    width: 1280px;
     display: grid;
     flex-direction: row;
     grid-template-columns: 1fr 3fr 1fr;
@@ -158,8 +157,8 @@ main {
 }
 
 .container-produtos-dia {
-    height: 30vh;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    height: 35vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
     grid-template-rows: 1fr 1fr;
     margin-top: 25%;
     display: grid;
@@ -178,7 +177,7 @@ main {
     text-align: center;    
 }
 .cards-produto-dia:hover {
-transform: scale(1.09);
+transform: scale(1.05);
 }
 
 /*============== ASIDE ESQUERDO ===============*/
