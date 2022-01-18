@@ -196,13 +196,14 @@ aside {
 }
 
 .card-aside-esquerdo {
-    width: 14vw;
-    height: 14vw;
+    width: 16vw;
+    height: 10vw;
     background: #aec1782c;
     margin-top: 10%;
     justify-self: center;
     text-align: center;
 }
+
 
 /*============ FOOTER =================*/
 footer {
