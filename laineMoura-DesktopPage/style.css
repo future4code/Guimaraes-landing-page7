@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+button,
+#txt-pesquisa {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    outline: inherit;
+}
+
+button {
+    cursor: pointer;
+}
+
+/*GRID DO BODY*/
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-areas: "header header header"
+                         "asideE main main"
+                         "footer footer footer";
+}
+
+
+/*============= HEADER ==============*/
+
+header {
+    display: grid;
+    flex-direction: row;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-area: header;
+}
+
+#logo {
+    width: 50vh;
+}
+
+.container-pesquisa-e-botoes,
+.container-pesquisa,
+.botoes-login-cesta {
+    display: flex;
+    align-self: center;
+}
+
+
+#txt-pesquisa {
+    background: #f0ead281;
+    outline: none;
+    height: 8vh;
+    width: 50vw;
+}
+
+.lupa-pesquisa img {
+    width: 2vw;
+    padding: 0 0 0 5%;
+}
+
+.lupa-pesquisa:hover {
+    transform: scale(1.1);
+}
+
+#btn-login,
+#btn-cesta {
+    margin: 0 10%;
+    padding: 0 20%;
+    align-self: center;
+    border-radius: 10%;
+}
+
+#btn-login {
+    background: #DDE5B6;
+    height: 5vh;
+}
+
+#btn-cesta {
+    background: #DDE5B6;
+}
+
+#btn-cesta img {
+    width: 4.5vh
+}
+
+/*============ MAIN ============*/
+main {
+    grid-area: main;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+}
+
+.banner p {
+    background: #a98467d3;
+    font-size: 2.2rem;
+    color: white;
+    padding: 3% 1%;
+}
+
+.container-promo-dia {
+    height: 35vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr;
+    margin-top: 5%;
+    display: grid;
+    flex-direction: row;
+    justify-self: center;
+    row-gap: 2vh;
+    column-gap: 2vh;
+}
+
+.card-promo-dia {
+    background: #f0ead279;
+    height: 25vh;
+    width: 25vh;
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+    
+}
+
+.card-promo-dia:hover {
+    transform: scale(1.1);
+}
+
+.container-secoes-produtos {
+    
+    height: 26vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    margin-top: 20%;
+    display: grid;
+    flex-direction: row;
+    justify-self: center;
+    row-gap: 10vh;
+    column-gap: 2vh;
+}
+
+.secao-de-produtos {
+    background: #ADC178;
+    height: 20vh;
+    width: 20vh;
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.secao-de-produtos:hover{
+    transform: scale(1.1);
+}
+
+.container-produtos-dia {
+    height: 35vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr;
+    margin-top: 25%;
+    display: grid;
+    flex-direction: row;
+    justify-self: center;
+    row-gap: 2vh;
+    column-gap: 2vh;
+}
+
+.cards-produto-dia {
+    background: #f0ead279;
+    height: 25vh;
+    width: 18vw;
+    justify-self: center;
+    align-self: center;
+    text-align: center;    
+}
+.cards-produto-dia:hover {
+transform: scale(1.05);
+}
+
+/*============== ASIDE ESQUERDO ===============*/
+
+aside {
+    margin-top: 50%;
+}
+
+
+#aside-esquerdo {
+    height: 200vh;
+    width: 18vw;
+    display: grid;
+    flex-direction: column;
+    grid-area: asideE;
+}
+
+.card-aside-esquerdo {
+    width: 14vw;
+    height: 14vw;
+    background: #aec1782c;
+    margin-top: 10%;
+    justify-self: center;
+    text-align: center;
+}
+
+/*============ FOOTER =================*/
+footer {
+    grid-area: footer;
+    background: #6c584c7a;
+}
+
+
