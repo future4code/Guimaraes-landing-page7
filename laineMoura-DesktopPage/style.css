@@ -141,6 +141,9 @@ main {
     row-gap: 10vh;
     column-gap: 2vh;
 }
+.foto-secao-de-produtos {
+    border-radius: 50%;
+}
 
 .secao-de-produtos {
     background: #ADC178;
