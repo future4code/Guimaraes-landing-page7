@@ -111,7 +111,7 @@ main {
     display: grid;
     flex-direction: row;
     justify-self: center;
-    row-gap: 2vh;
+    row-gap: 5vh;
     column-gap: 2vh;
 }
 
