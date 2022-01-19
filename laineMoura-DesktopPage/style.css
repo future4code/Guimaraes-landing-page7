@@ -111,7 +111,7 @@ main {
     display: grid;
     flex-direction: row;
     justify-self: center;
-    row-gap: 2vh;
+    row-gap: 5vh;
     column-gap: 2vh;
 }
 
@@ -140,6 +140,9 @@ main {
     justify-self: center;
     row-gap: 10vh;
     column-gap: 2vh;
+}
+.foto-secao-de-produtos {
+    border-radius: 50%;
 }
 
 .secao-de-produtos {
@@ -196,13 +199,14 @@ aside {
 }
 
 .card-aside-esquerdo {
-    width: 14vw;
-    height: 14vw;
+    width: 16vw;
+    height: 10vw;
     background: #aec1782c;
     margin-top: 10%;
     justify-self: center;
     text-align: center;
 }
+
 
 /*============ FOOTER =================*/
 footer {
