@@ -370,3 +370,95 @@ footer {
     }
     
 }
+
+
+@media screen and (min-width:375px) {
+
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 7fr;
+        grid-template-areas: "header header"
+            "main main "
+            "footer footer ";
+        }
+
+    #logo {
+        width: 10vh;
+        margin-top: 30%;
+    }
+
+
+    .lupa-pesquisa img{
+        width: 2vh;
+    }
+
+    .container-pesquisa-e-botoes {
+        display: grid;
+        flex-direction: column;
+        grid-template-rows: 1fr 1fr;
+        row-gap: 2vh;
+        margin-top: 10%;
+    }
+
+    #txt-pesquisa {
+        width: 280px;
+    }
+
+    .botoes-login-cesta {
+        margin: 0 auto;
+        margin-left: 10%;
+    }
+    .banner p {
+        font-size: 2.5vh;
+    }
+    
+    #aside-esquerdo {
+        display: none;
+    }
+
+    main {
+        text-align: center;
+    }
+    
+    
+    .container-promo-dia {
+        display: none;
+    }
+
+    .container-secoes-produtos {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: 80vh; 
+        margin: 10% 0;
+    }
+
+    .container-produtos-dia {
+        margin: 150% 0 10% 0;
+        height: 80vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .container-produtos-dia img {
+        width: 30vw;
+        height: 15vh;
+    }
+
+    footer {
+        width: 99vw;
+    }
+
+    .forma-de-pagamento {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .cartao {
+        width: 60%;
+    }
+
+    .img-rede-social {
+        width: 30%;
+    }
+    
+}
