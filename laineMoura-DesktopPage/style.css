@@ -247,7 +247,7 @@ aside {
 
 /*============ FOOTER =================*/
 footer {
-    width: 100vw;
+    width: 99vw;
     grid-area: footer;
     background: #6c584c7a;
     display: grid;
