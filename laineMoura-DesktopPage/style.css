@@ -200,16 +200,23 @@ aside {
     width: 18vw;
     display: grid;
     flex-direction: column;
+    background: #6c794b2c;
     grid-area: asideE;
 }
 
 .card-aside-esquerdo {
     width: 16vw;
-    height: 10vw;
+    height: 12vw;
     background: #aec1782c;
     margin-top: 10%;
     justify-self: center;
     text-align: center;
+}
+
+.card-aside-esquerdo p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    color: rgb(44, 83, 44);
 }
 
 
