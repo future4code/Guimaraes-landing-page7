@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+a {
+    color: inherit;
+}
+
 button,
 #txt-pesquisa {
     background: none;
@@ -95,7 +99,8 @@ main {
     grid-area: main;
 }
 
-p {
+p,
+h2 {
     font-family: 'Raleway', sans-serif;
     font-family: 'Share Tech', sans-serif;
     font-size: 2vh;
@@ -245,4 +250,25 @@ aside {
 footer {
     grid-area: footer;
     background: #6c584c7a;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.redes-sociais {
+    justify-self: center;
+    align-self: center;
+}
+
+.forma-de-pagamento {
+    align-self: center;
+}
+
+.contato {
+    justify-self: center;
+}
+
+.img-rede-social {
+    width: 3vw;
+    justify-items: center;
+    opacity: 80%;
 }
