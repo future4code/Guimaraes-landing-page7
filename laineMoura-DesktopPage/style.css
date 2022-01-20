@@ -158,7 +158,6 @@ main p span {
     margin-top: 20%;
     display: grid;
     flex-direction: row;
-    justify-self: center;
     row-gap: 10vh;
     column-gap: 2vh;
 }
@@ -222,7 +221,7 @@ aside {
 
 #aside-esquerdo {
     height: 200vh;
-    width: 12vw;
+    width: 13vw;
     display: grid;
     flex-direction: column;
     background: #6c794b2c;
@@ -230,8 +229,8 @@ aside {
 }
 
 .card-aside-esquerdo img{
-    width: 10vw;
-    height: 10vh;
+    width: 13vw;
+    height: 13vh;
     background: #aec1782c;
     margin-top: 10%;
     justify-self: center;
@@ -273,6 +272,101 @@ footer {
     opacity: 80%;
 }
 
-@media screen and (min-width:) and (max-width:){
+@media screen and (min-width:780px) and (max-width: 1025px){
+    
+    main {
+        text-align: center;
+    }
+    #logo {
+        width: 20vh;
+    }
+
+    .card-aside-esquerdo p {
+        font-size: 1.5vh;
+        align-content: center;
+    }
+    
+    .container-promo-dia {
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .container-secoes-produtos {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: 80vh; 
+        margin: 50% 0;
+    }
+
+    .container-produtos-dia {
+        margin: 80% 0 10% 0;
+        height: 80vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    footer {
+        width: 99vw;
+    }
+    
+}
+
+@media screen and (min-width:376px) and (max-width: 779px){
+    
+    main {
+        text-align: center;
+    }
+    #logo {
+        width: 10vh;
+    }
+    
+    .banner p {
+        font-size: 1.5vh;
+    }
+
+    .card-promo-dia img{
+        width: 20vw;
+        height: 20vw;
+
+    }
+
+    .card-aside-esquerdo p {
+        font-size: 1.5vh;
+        align-content: center;
+    }
+    
+    .container-promo-dia {
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .container-secoes-produtos {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: 80vh; 
+        margin: 50% 0;
+    }
+
+    .container-produtos-dia {
+        margin: 150% 0 10% 0;
+        height: 80vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .container-produtos-dia img {
+        width: 25vw;
+        height: 15vh;
+    }
+
+    #aside-esquerdo {
+        display: none;
+    }
+
+    footer {
+        width: 99vw;
+    }
     
 }
