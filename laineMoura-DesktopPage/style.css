@@ -126,7 +126,7 @@ main p span {
 }
 
 .container-promo-dia {
-    height: 35vh;
+    height: 80vh;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     margin-top: 5%;
@@ -152,8 +152,7 @@ main p span {
 }
 
 .container-secoes-produtos {
-
-    height: 26vh;
+    height: 60vh;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     margin-top: 20%;
@@ -201,7 +200,7 @@ main p span {
     column-gap: 2vh;
 }
 
-.cards-produto-dia {
+.cards-produto-dia img{
     background: #f0ead279;
     height: 25vh;
     width: 18vw;
@@ -230,9 +229,9 @@ aside {
     grid-area: asideE;
 }
 
-.card-aside-esquerdo {
-    width: 16vw;
-    height: 12vw;
+.card-aside-esquerdo img{
+    width: 18vw;
+    height: 18vh;
     background: #aec1782c;
     margin-top: 10%;
     justify-self: center;
@@ -272,3 +271,4 @@ footer {
     justify-items: center;
     opacity: 80%;
 }
+
