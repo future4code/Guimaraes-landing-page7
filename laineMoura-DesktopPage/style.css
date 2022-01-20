@@ -137,7 +137,7 @@ main p span {
     column-gap: 2vh;
 }
 
-.card-promo-dia {
+.card-promo-dia img{
     background: #f0ead279;
     height: 25vh;
     width: 25vh;
