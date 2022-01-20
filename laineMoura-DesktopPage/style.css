@@ -95,7 +95,7 @@ main {
     grid-area: main;
 }
 
-main p {
+p {
     font-family: 'Raleway', sans-serif;
     font-family: 'Share Tech', sans-serif;
     font-size: 2vh;
@@ -171,6 +171,12 @@ main p span {
     justify-self: center;
     align-self: center;
     text-align: center;
+    border-radius: 50%;
+}
+
+.foto-secao-de-produtos {
+    height: 20vh;
+    width: 20vh;
     border-radius: 50%;
 }
 
