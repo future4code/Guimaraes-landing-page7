@@ -13,6 +13,10 @@ button,
     outline: inherit;
 }
 
+img {
+    border-radius: 5%;
+}
+
 button {
     cursor: pointer;
 }
