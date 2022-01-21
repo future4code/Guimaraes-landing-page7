@@ -449,6 +449,10 @@ footer {
     .refeicoes-saudaveis img {
         width: 280px;
     }
+
+    .card-refeicao-saudavel img{
+        width: 280px;
+    }
     
     #aside-esquerdo {
         display: none;
