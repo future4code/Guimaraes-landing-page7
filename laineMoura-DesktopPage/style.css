@@ -100,6 +100,12 @@ main {
     grid-area: main;
 }
 
+.formulario {
+    display: table;
+    margin-top: 10%;
+    line-height: 5vh;
+}
+
 p,
 h2 {
     font-family: 'Raleway', sans-serif;
@@ -124,6 +130,26 @@ main p span {
     font-size: 2.2rem;
     color: white;
     padding: 3% 1%;
+}
+
+.refeicoes-saudaveis {
+    text-align: center;
+    margin: 5% 0;
+}
+
+.refeicoes-saudaveis img {
+    width: 20vw;
+    margin: 1% 0;
+    padding: 2% 0;
+}
+
+.container-refeicoes-saudaveis {
+    text-align: center;
+}
+
+.card-refeicao-saudavel img {
+    width: 20vw;
+    text-align: center;
 }
 
 .container-promo-dia {
