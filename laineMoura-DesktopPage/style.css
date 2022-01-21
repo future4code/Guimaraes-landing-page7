@@ -25,6 +25,7 @@ button {
     cursor: pointer;
 }
 
+
 /*GRID DO BODY*/
 
 .container {
@@ -372,7 +373,7 @@ footer {
 }
 
 
-@media screen and (min-width:375px) {
+@media screen and (max-width:375px) {
 
     .container {
         display: grid;
