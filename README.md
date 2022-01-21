@@ -11,3 +11,6 @@ O 4Food é um projeto de uma grande rede de supermercados que está buscando se 
 ![Captura de tela de 2022-01-21 16-06-15](https://user-images.githubusercontent.com/56762847/150585734-8a9424a6-6d16-4ab9-b888-bec2cd008f58.png)
 ![Captura de tela de 2022-01-21 16-06-25](https://user-images.githubusercontent.com/56762847/150585738-40664b68-4adc-47bb-8d70-6fb8f146e48f.png)
 ![Captura de tela de 2022-01-21 16-06-35](https://user-images.githubusercontent.com/56762847/150585742-bcace8d6-30fd-433d-a23d-96ebdc0dc9b5.png)
+![Captura de tela de 2022-01-21 16-08-45](https://user-images.githubusercontent.com/56762847/150586010-c4bb97ad-98cf-4fb2-a0ad-bde5a890367e.png)
+![Captura de tela de 2022-01-21 16-08-56](https://user-images.githubusercontent.com/56762847/150586017-6611e1af-a99e-4c96-9eed-96609e7d5a54.png)
+![Captura de tela de 2022-01-21 16-09-10](https://user-images.githubusercontent.com/56762847/150586019-d62977ac-7a38-489a-b8ea-d21dfac9406d.png)
