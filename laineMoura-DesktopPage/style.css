@@ -100,14 +100,16 @@ main {
     grid-area: main;
 }
 
+
 .formulario {
     display: table;
-    margin-top: 10%;
+    margin: 0 auto;
     line-height: 5vh;
 }
 
 p,
-h2 {
+h2,
+.btn-login {
     font-family: 'Raleway', sans-serif;
     font-family: 'Share Tech', sans-serif;
     font-size: 2vh;
@@ -280,7 +282,7 @@ aside {
 
 /*============ FOOTER =================*/
 footer {
-    width: 99vw;
+    width: 100vw;
     grid-area: footer;
     background: #6c584c7a;
     display: grid;
@@ -421,6 +423,14 @@ footer {
         margin-top: 30%;
     }
 
+    .logo-login {
+        width: 30vh;
+        margin-left: 80px;
+    }
+
+    .container-pesquisa-e-botoes {
+        display: flex;
+    }
 
     .lupa-pesquisa img{
         width: 2vh;
@@ -486,8 +496,18 @@ footer {
         height: 15vh;
     }
 
+    .formulario {
+        margin: 0 auto;
+    }
+
     footer {
         width: 99vw;
+    }
+
+    .footer-login {
+        bottom: 0;
+        position: fixed;
+        width: 100vw;
     }
 
     .forma-de-pagamento {
