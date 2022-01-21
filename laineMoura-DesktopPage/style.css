@@ -152,6 +152,13 @@ main p span {
     text-align: center;
 }
 
+#botao-pedir-refeicao {
+    margin: 0 auto;
+    width: min-content;
+    padding: 2% 2%;
+    background: #6c584c7a;
+}
+
 .container-promo-dia {
     height: 80vh;
     grid-template-columns: 1fr 1fr 1fr 1fr;
