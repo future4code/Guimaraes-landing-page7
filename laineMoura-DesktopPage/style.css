@@ -25,6 +25,7 @@ button {
     cursor: pointer;
 }
 
+
 /*GRID DO BODY*/
 
 .container {
@@ -99,8 +100,16 @@ main {
     grid-area: main;
 }
 
+
+.formulario {
+    display: table;
+    margin: 0 auto;
+    line-height: 5vh;
+}
+
 p,
-h2 {
+h2,
+.btn-login {
     font-family: 'Raleway', sans-serif;
     font-family: 'Share Tech', sans-serif;
     font-size: 2vh;
@@ -123,6 +132,33 @@ main p span {
     font-size: 2.2rem;
     color: white;
     padding: 3% 1%;
+}
+
+.refeicoes-saudaveis {
+    text-align: center;
+    margin: 5% 0;
+}
+
+.refeicoes-saudaveis img {
+    width: 40vw;
+    margin: 1% 0;
+    padding: 2% 0;
+}
+
+.container-refeicoes-saudaveis {
+    text-align: center;
+}
+
+.card-refeicao-saudavel img {
+    width: 20vw;
+    text-align: center;
+}
+
+#botao-pedir-refeicao {
+    margin: 0 auto;
+    width: min-content;
+    padding: 2% 2%;
+    background: #6c584c7a;
 }
 
 .container-promo-dia {
@@ -246,7 +282,7 @@ aside {
 
 /*============ FOOTER =================*/
 footer {
-    width: 99vw;
+    width: 100vw;
     grid-area: footer;
     background: #6c584c7a;
     display: grid;
@@ -367,6 +403,124 @@ footer {
 
     footer {
         width: 99vw;
+    }
+    
+}
+
+
+@media screen and (max-width:375px) {
+
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 7fr;
+        grid-template-areas: "header header"
+            "main main "
+            "footer footer ";
+        }
+
+    #logo {
+        width: 10vh;
+        margin-top: 30%;
+    }
+
+    .logo-login {
+        width: 30vh;
+        margin-left: 80px;
+    }
+
+    .container-pesquisa-e-botoes {
+        display: flex;
+    }
+
+    .lupa-pesquisa img{
+        width: 2vh;
+    }
+
+    .container-pesquisa-e-botoes {
+        display: grid;
+        flex-direction: column;
+        grid-template-rows: 1fr 1fr;
+        row-gap: 2vh;
+        margin-top: 10%;
+    }
+
+    #txt-pesquisa {
+        width: 280px;
+    }
+
+    .botoes-login-cesta {
+        margin: 0 auto;
+        margin-left: 10%;
+    }
+    .banner p {
+        font-size: 2.5vh;
+    }
+
+    .refeicoes-saudaveis img {
+        width: 280px;
+    }
+
+    .card-refeicao-saudavel img{
+        width: 280px;
+    }
+    
+    #aside-esquerdo {
+        display: none;
+    }
+
+    main {
+        text-align: center;
+    }
+    
+    
+    .container-promo-dia {
+        display: none;
+    }
+
+    .container-secoes-produtos {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: 80vh; 
+        margin: 10% 0;
+    }
+
+    .container-produtos-dia {
+        margin: 150% 0 10% 0;
+        height: 80vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .container-produtos-dia img {
+        width: 30vw;
+        height: 15vh;
+    }
+
+    .formulario {
+        margin: 0 auto;
+    }
+
+    footer {
+        width: 99vw;
+    }
+
+    .footer-login {
+        bottom: 0;
+        position: fixed;
+        width: 100vw;
+    }
+
+    .forma-de-pagamento {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .cartao {
+        width: 60%;
+    }
+
+    .img-rede-social {
+        width: 30%;
     }
     
 }
