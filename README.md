@@ -18,6 +18,7 @@ O 4Food é um projeto de uma grande rede de supermercados que está buscando se 
   
   - [x] Peça refeição saudável
   - [x] Página de login
+  - [ ] Cards de seções de produtos do mercado
    
    
 <!--te-->
