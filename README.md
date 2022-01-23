@@ -15,7 +15,7 @@ O 4Food é um projeto de uma grande rede de supermercados que está buscando se 
   - [x] Página de login
   - [ ] Cards de seções de produtos do mercado
 
-  ### Fotos - Desktop & MObile
+  ### Fotos - Desktop & Mobile
    
 
 ![Captura de tela de 2022-01-21 16-03-14](https://user-images.githubusercontent.com/56762847/150585413-eec85ae7-3b36-47de-8e4f-c9002ea41ee5.png)
