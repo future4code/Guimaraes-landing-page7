@@ -16,7 +16,7 @@ O 4Food é um projeto de uma grande rede de supermercados que está buscando se 
   - [ ] Cards de seções de produtos do mercado
   - [ ] Promoções do dia
 
-### 👩‍💻 Desenvoldevoras
+### 👩‍💻 Desenvolvedoras
   - Laíne Moura
   - Patrícia Quarezemin
    
