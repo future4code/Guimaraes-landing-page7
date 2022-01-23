@@ -9,7 +9,7 @@ O 4Food é um projeto de uma grande rede de supermercados que está buscando se 
    - HTML
    - CSS
 
-  ### Features
+  ### 📱 Features
   
   - [x] Peça refeição saudável
   - [x] Página de login
